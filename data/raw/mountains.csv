@@ -1,0 +1,96 @@
+﻿external_id,name,entity_type,country_code,mountain_range
+M001,Kangchenjunga,mountain,"IND,NPL",Himalayas
+M002,Lhotse,mountain,"NPL,CHN",Himalayas
+M003,Makalu,mountain,"NPL,CHN",Himalayas
+M004,Cho Oyu,mountain,"NPL,CHN",Himalayas
+M005,Dhaulagiri I,mountain,NPL,Himalayas
+M006,Manaslu,mountain,NPL,Himalayas
+M007,Nanga Parbat,mountain,PAK,Himalayas
+M008,Annapurna I,mountain,NPL,Himalayas
+M009,Gasherbrum I (K5),mountain,"PAK,CHN",Karakoram
+M010,Broad Peak (K3),mountain,"PAK,CHN",Karakoram
+M011,Gasherbrum II (K4),mountain,"PAK,CHN",Karakoram
+M012,Shishapangma / Gosainthan,mountain,CHN,Himalayas
+M013,Mount Kosciuszko,mountain,AUS,Great Dividing Range
+M014,Mount Everest,mountain,"NPL,CHN",Himalayas
+M015,K2,mountain,PAK,Karakoram
+M016,Tirich Mir,mountain,PAK,Hindu Kush
+M017,Kongur Tagh,mountain,CHN,Kongur Shan
+M018,Mount Gongga,mountain,CHN,Daxue Mountains
+M019,Ismoil Somoni Peak,mountain,TJK,Pamir Mountains
+M020,Jengish Chokusu,mountain,"CHN,KGZ",Kakshaal Too
+M021,Gyala Peri,mountain,CHN,Nyenchen Tanglha Mountains
+M022,Aconcagua,mountain,ARG,Andes
+M023,Chakragil,mountain,CHN,Kunlun Mountains
+M024,Mercedario,mountain,ARG,Cordillera de la Ramada
+M025,Xuelian Feng,mountain,CHN,Tian Shan
+M026,Buni Zom,mountain,PAK,Hindu Raj
+M027,Chimborazo,mountain,ECU,Cordillera Occidental
+M028,Denali,mountain,USA,Alaska Range
+M029,Mount Logan,mountain,CAN,Saint Elias Mountains
+M030,Mount Kilimanjaro,mountain,TZA,Eastern Rift mountains
+M031,Pico Cristóbal Colón,mountain,COL,Sierra Nevada de Santa Marta
+M032,Mount Elbrus,mountain,RUS,Caucasus Mountains
+M033,Pico de Orizaba,mountain,MEX,Trans-Mexican Volcanic Belt
+M034,Mount Damavand,mountain,IRN,Alborz
+M035,Jade Dragon Snow Mountain,mountain,CHN,Yun Range
+M036,Bogda Peak,mountain,CHN,Bogda Shan
+M037,Ritacuba Blanco,mountain,COL,Cordillera Oriental
+M038,Mount Ararat,mountain,TUR,Armenian Highlands
+M039,Mount Stanley,mountain,"COG,UGA",Rwenzori Mountains
+M040,Mount Blackburn,mountain,USA,Wrangell Mountains
+M041,Pico Bolívar,mountain,VEN,Sierra Nevada de Mérida
+M042,Pik Talgar,mountain,KAZ,Trans-Ili Alatau
+M043,Vinson Massif,mountain,ATA,Sentinel Range
+M044,Puncak Jaya,mountain,IDN,Sudirman Range
+M045,Mont Blanc,mountain,"ITA,FRA",Alps
+M046,Klyuchevskaya Sopka,mountain,RUS,Kamchatka
+M047,Ras Dashen,mountain,ETH,Semien Mountains
+M048,Mount Wilhelm,mountain,PNG,Bismarck Range
+M049,Mount Karisimbi,mountain,"COG,RWA",Virunga Mountains
+M050,Belukha Mountain,mountain,"KAZ,RUS",Altai Mountains
+M051,Mount Whitney,mountain,USA,Sierra Nevada
+M052,Mount Elbert,mountain,USA,Sawatch Range (Rocky Mountains)
+M053,Mount Rainier,mountain,USA,Cascade Range
+M054,Volcán Tajumulco,mountain,GTM,Sierra Madre de Chiapas
+M055,Toubkal,mountain,MAR,Atlas Mountains
+M056,Mount Boising,mountain,PNG,Finisterre Range
+M057,Mount Kinabalu,mountain,MYS,"Crocker Range, Borneo"
+M058,Mount Cameroon,mountain,CMR,Cameroon line
+M059,Mount Waddington,mountain,CAN,Coast Mountains
+M060,Mount Marcus Baker,mountain,USA,Chugach Mountains
+M061,Mount Robson,mountain,CAN,Canadian Rockies
+M062,Yushan,mountain,TWN,Yushan Range
+M063,Taftan,mountain,IRN,Baluchestan Mountains
+M064,Sauyr Zhotasy,mountain,"CHN,KAZ",Saur Mountains
+M065,Saramati,mountain,"IND,MMR",Patkai
+M066,Cerro Chirripó,mountain,CRI,Cordillera de Talamanca
+M067,Mount Kerinci,mountain,IDN,"Barisan Mountains, Sumatra"
+M068,Mount Erebus,mountain,ATA,Ross Island
+M069,Mount Fuji,mountain,JPN,Honshu
+M070,Aoraki/Mount Cook,mountain,NZL,Southern Alps
+M071,Teide,mountain,ESP,Tenerife
+M072,Gunnbjørn Fjeld,mountain,GRL,Watkins Range
+M073,Semeru,mountain,IDN,Tengger Range
+M074,Mount Suckling,mountain,PNG,Owen Stanley Range
+M075,Jabal an Nabi Shu'ayb,mountain,YEM,Sarawat Mountains
+M076,Ichinsky,mountain,RUS,Sredinny Range
+M077,Mulhacén,mountain,ESP,Sierra Nevada
+M078,Rantemario,mountain,IDN,Latimojong
+M079,Emi Koussi,mountain,TCD,Tibesti Mountains
+M080,Aneto,mountain,ESP,Pyrenees
+M081,Mount Etna,mountain,ITA,Sicily
+M082,Mount Siple,mountain,ATA,Siple Island
+M083,Pico Duarte,mountain,DOM,"Cordillera Central, Hispaniola"
+M084,Piton des Neiges,mountain,FRA,Réunion
+M085,Jabal Shams,mountain,OMN,Al Hajar Mountains
+M086,Pico da Neblina,mountain,BRA,Cerro de la Neblina
+M087,Mount Stephenson,mountain,ATA,"Douglas Range, Alexander Island"
+M088,Pico do Ramelau,mountain,TLS,Timor
+M089,Mount Apo,mountain,PHL,"Apo-Talomo, Mindanao"
+M090,Mount Paget,mountain,SGS,Allardyce Range
+M091,Mount Pulag,mountain,PHL,"Cordillera Central, Luzon"
+M092,Vihren,mountain,BGR,Pirin Mountains
+M093,Maromokotro,mountain,MDG,Madagascar
+M094,Mount Shishaldin,mountain,USA,Aleutian Range
+M095,Mount Fogo,mountain,CPV,Fogo

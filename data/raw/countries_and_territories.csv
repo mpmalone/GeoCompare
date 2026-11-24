@@ -1,0 +1,201 @@
+﻿external_id,name,entity_type,status_type,region
+AFG,Afghanistan,country_territory,sovereign state,Asia
+ALB,Albania,country_territory,sovereign state,Europe
+DZA,Algeria,country_territory,sovereign state,Africa
+AND,Andorra,country_territory,sovereign state,Europe
+AGO,Angola,country_territory,sovereign state,Africa
+ATG,Antigua and Barbuda,country_territory,sovereign state,Americas
+ARG,Argentina,country_territory,sovereign state,Americas
+ARM,Armenia,country_territory,sovereign state,Asia
+AUS,Australia,country_territory,sovereign state,Oceania
+AUT,Austria,country_territory,sovereign state,Europe
+AZE,Azerbaijan,country_territory,sovereign state,Asia
+BHS,Bahamas,country_territory,sovereign state,Americas
+BHR,Bahrain,country_territory,sovereign state,Asia
+BGD,Bangladesh,country_territory,sovereign state,Asia
+BRB,Barbados,country_territory,sovereign state,Americas
+BLR,Belarus,country_territory,sovereign state,Europe
+BEL,Belgium,country_territory,sovereign state,Europe
+BLZ,Belize,country_territory,sovereign state,Americas
+BEN,Benin,country_territory,sovereign state,Africa
+BTN,Bhutan,country_territory,sovereign state,Asia
+BOL,Bolivia,country_territory,sovereign state,Americas
+BIH,Bosnia and Herzegovina,country_territory,sovereign state,Europe
+BWA,Botswana,country_territory,sovereign state,Africa
+BRA,Brazil,country_territory,sovereign state,Americas
+BRN,Brunei Darussalam,country_territory,sovereign state,Asia
+BGR,Bulgaria,country_territory,sovereign state,Europe
+BFA,Burkina Faso,country_territory,sovereign state,Africa
+BDI,Burundi,country_territory,sovereign state,Africa
+CPV,Cabo Verde,country_territory,sovereign state,Africa
+KHM,Cambodia,country_territory,sovereign state,Asia
+CMR,Cameroon,country_territory,sovereign state,Africa
+CAN,Canada,country_territory,sovereign state,Americas
+CAF,Central African Republic,country_territory,sovereign state,Africa
+TCD,Chad,country_territory,sovereign state,Africa
+CHL,Chile,country_territory,sovereign state,Americas
+CHN,China,country_territory,sovereign state,Asia
+COL,Colombia,country_territory,sovereign state,Americas
+COM,Comoros,country_territory,sovereign state,Africa
+COG,Republic of the Congo,country_territory,sovereign state,Africa
+CRI,Costa Rica,country_territory,sovereign state,Americas
+CIV,Côte d'Ivoire,country_territory,sovereign state,Africa
+HRV,Croatia,country_territory,sovereign state,Europe
+CUB,Cuba,country_territory,sovereign state,Americas
+CYP,Cyprus,country_territory,sovereign state,Asia
+CZE,Czechia,country_territory,sovereign state,Europe
+COD,Democratic Republic of the Congo,country_territory,sovereign state,Africa
+DNK,Denmark,country_territory,sovereign state,Europe
+DJI,Djibouti,country_territory,sovereign state,Africa
+DMA,Dominica,country_territory,sovereign state,Americas
+DOM,Dominican Republic,country_territory,sovereign state,Americas
+ECU,Ecuador,country_territory,sovereign state,Americas
+EGY,Egypt,country_territory,sovereign state,Africa
+SLV,El Salvador,country_territory,sovereign state,Americas
+GNQ,Equatorial Guinea,country_territory,sovereign state,Africa
+ERI,Eritrea,country_territory,sovereign state,Africa
+EST,Estonia,country_territory,sovereign state,Europe
+SWZ,Eswatini,country_territory,sovereign state,Africa
+ETH,Ethiopia,country_territory,sovereign state,Africa
+FJI,Fiji,country_territory,sovereign state,Oceania
+FIN,Finland,country_territory,sovereign state,Europe
+FRA,France,country_territory,sovereign state,Europe
+GAB,Gabon,country_territory,sovereign state,Africa
+GMB,Gambia,country_territory,sovereign state,Africa
+GEO,Georgia,country_territory,sovereign state,Asia
+DEU,Germany,country_territory,sovereign state,Europe
+GHA,Ghana,country_territory,sovereign state,Africa
+GRC,Greece,country_territory,sovereign state,Europe
+GRD,Grenada,country_territory,sovereign state,Americas
+GTM,Guatemala,country_territory,sovereign state,Americas
+GIN,Guinea,country_territory,sovereign state,Africa
+GNB,Guinea-Bissau,country_territory,sovereign state,Africa
+GUY,Guyana,country_territory,sovereign state,Americas
+HTI,Haiti,country_territory,sovereign state,Americas
+VAT,Holy See (Vatican City),country_territory,sovereign state,Europe
+HND,Honduras,country_territory,sovereign state,Americas
+HUN,Hungary,country_territory,sovereign state,Europe
+ISL,Iceland,country_territory,sovereign state,Europe
+IND,India,country_territory,sovereign state,Asia
+IDN,Indonesia,country_territory,sovereign state,Asia
+IRN,Iran,country_territory,sovereign state,Asia
+IRQ,Iraq,country_territory,sovereign state,Asia
+IRL,Ireland,country_territory,sovereign state,Europe
+ISR,Israel,country_territory,sovereign state,Asia
+ITA,Italy,country_territory,sovereign state,Europe
+JAM,Jamaica,country_territory,sovereign state,Americas
+JPN,Japan,country_territory,sovereign state,Asia
+JOR,Jordan,country_territory,sovereign state,Asia
+KAZ,Kazakhstan,country_territory,sovereign state,Asia
+KEN,Kenya,country_territory,sovereign state,Africa
+KIR,Kiribati,country_territory,sovereign state,Oceania
+KWT,Kuwait,country_territory,sovereign state,Asia
+KGZ,Kyrgyzstan,country_territory,sovereign state,Asia
+LAO,Laos,country_territory,sovereign state,Asia
+LVA,Latvia,country_territory,sovereign state,Europe
+LBN,Lebanon,country_territory,sovereign state,Asia
+LSO,Lesotho,country_territory,sovereign state,Africa
+LBR,Liberia,country_territory,sovereign state,Africa
+LBY,Libya,country_territory,sovereign state,Africa
+LIE,Liechtenstein,country_territory,sovereign state,Europe
+LTU,Lithuania,country_territory,sovereign state,Europe
+LUX,Luxembourg,country_territory,sovereign state,Europe
+MDG,Madagascar,country_territory,sovereign state,Africa
+MWI,Malawi,country_territory,sovereign state,Africa
+MYS,Malaysia,country_territory,sovereign state,Asia
+MDV,Maldives,country_territory,sovereign state,Asia
+MLI,Mali,country_territory,sovereign state,Africa
+MLT,Malta,country_territory,sovereign state,Europe
+MHL,Marshall Islands,country_territory,sovereign state,Oceania
+MRT,Mauritania,country_territory,sovereign state,Africa
+MUS,Mauritius,country_territory,sovereign state,Africa
+MEX,Mexico,country_territory,sovereign state,Americas
+FSM,Micronesia,country_territory,sovereign state,Oceania
+MDA,Moldova,country_territory,sovereign state,Europe
+MCO,Monaco,country_territory,sovereign state,Europe
+MNG,Mongolia,country_territory,sovereign state,Asia
+MNE,Montenegro,country_territory,sovereign state,Europe
+MAR,Morocco,country_territory,sovereign state,Africa
+MOZ,Mozambique,country_territory,sovereign state,Africa
+MMR,Myanmar,country_territory,sovereign state,Asia
+NAM,Namibia,country_territory,sovereign state,Africa
+NRU,Nauru (Naoero),country_territory,sovereign state,Oceania
+NPL,Nepal,country_territory,sovereign state,Asia
+NLD,Netherlands,country_territory,sovereign state,Europe
+NZL,New Zealand,country_territory,sovereign state,Oceania
+NIC,Nicaragua,country_territory,sovereign state,Americas
+NER,Niger,country_territory,sovereign state,Africa
+NGA,Nigeria,country_territory,sovereign state,Africa
+PRK,North Korea,country_territory,sovereign state,Asia
+MKD,North Macedonia,country_territory,sovereign state,Europe
+NOR,Norway,country_territory,sovereign state,Europe
+OMN,Oman,country_territory,sovereign state,Asia
+PAK,Pakistan,country_territory,sovereign state,Asia
+PLW,Palau,country_territory,sovereign state,Oceania
+PSE,Palestine,country_territory,observer state,Asia
+PAN,Panama,country_territory,sovereign state,Americas
+PNG,Papua New Guinea,country_territory,sovereign state,Oceania
+PRY,Paraguay,country_territory,sovereign state,Americas
+PER,Peru,country_territory,sovereign state,Americas
+PHL,Philippines,country_territory,sovereign state,Asia
+POL,Poland,country_territory,sovereign state,Europe
+PRT,Portugal,country_territory,sovereign state,Europe
+QAT,Qatar,country_territory,sovereign state,Asia
+ROU,Romania,country_territory,sovereign state,Europe
+RUS,Russia,country_territory,sovereign state,Europe
+RWA,Rwanda,country_territory,sovereign state,Africa
+KNA,Saint Kitts and Nevis,country_territory,sovereign state,Americas
+LCA,Saint Lucia,country_territory,sovereign state,Americas
+VCT,Saint Vincent and the Grenadines,country_territory,sovereign state,Americas
+WSM,Samoa,country_territory,sovereign state,Oceania
+SMR,San Marino,country_territory,sovereign state,Europe
+STP,São Tomé and Príncipe,country_territory,sovereign state,Africa
+SAU,Saudi Arabia,country_territory,sovereign state,Asia
+SEN,Senegal,country_territory,sovereign state,Africa
+SRB,Serbia,country_territory,sovereign state,Europe
+SYC,Seychelles,country_territory,sovereign state,Africa
+SLE,Sierra Leone,country_territory,sovereign state,Africa
+SGP,Singapore,country_territory,sovereign state,Asia
+SVK,Slovakia,country_territory,sovereign state,Europe
+SVN,Slovenia,country_territory,sovereign state,Europe
+SLB,Solomon Islands,country_territory,sovereign state,Oceania
+SOM,Somalia,country_territory,sovereign state,Africa
+ZAF,South Africa,country_territory,sovereign state,Africa
+KOR,South Korea,country_territory,sovereign state,Asia
+SSD,South Sudan,country_territory,sovereign state,Africa
+ESP,Spain,country_territory,sovereign state,Europe
+LKA,Sri Lanka,country_territory,sovereign state,Asia
+SDN,Sudan,country_territory,sovereign state,Africa
+SUR,Suriname,country_territory,sovereign state,Americas
+SWE,Sweden,country_territory,sovereign state,Europe
+CHE,Switzerland,country_territory,sovereign state,Europe
+SYR,Syria,country_territory,sovereign state,Asia
+TJK,Tajikistan,country_territory,sovereign state,Asia
+TZA,Tanzania,country_territory,sovereign state,Africa
+THA,Thailand,country_territory,sovereign state,Asia
+TLS,Timor-Leste,country_territory,sovereign state,Asia
+TGO,Togo,country_territory,sovereign state,Africa
+TON,Tonga,country_territory,sovereign state,Oceania
+TTO,Trinidad and Tobago,country_territory,sovereign state,Americas
+TUN,Tunisia,country_territory,sovereign state,Africa
+TUR,Türkiye,country_territory,sovereign state,Asia
+TKM,Turkmenistan,country_territory,sovereign state,Asia
+TUV,Tuvalu,country_territory,sovereign state,Oceania
+UGA,Uganda,country_territory,sovereign state,Africa
+UKR,Ukraine,country_territory,sovereign state,Europe
+ARE,United Arab Emirates,country_territory,sovereign state,Asia
+GBR,United Kingdom,country_territory,sovereign state,Europe
+USA,United States,country_territory,sovereign state,Americas
+URY,Uruguay,country_territory,sovereign state,Americas
+UZB,Uzbekistan,country_territory,sovereign state,Asia
+VUT,Vanuatu,country_territory,sovereign state,Oceania
+VEN,Venezuela,country_territory,sovereign state,Americas
+VNM,Vietnam,country_territory,sovereign state,Asia
+YEM,Yemen,country_territory,sovereign state,Asia
+ZMB,Zambia,country_territory,sovereign state,Africa
+ZWE,Zimbabwe,country_territory,sovereign state,Africa
+ATA,Antarctica,country_territory,continent,Antarctica
+GRL,Greenland,country_territory,autonomous territory,Americas
+TWN,Taiwan,country_territory,self-governing territory,Asia
+SGS,South Georgia and the South Sandwich Islands,country_territory,overseas territory,Antarctica
+HKG,Hong Kong,country_territory,special administrative region,Asia

@@ -1,0 +1,8 @@
+﻿statistic_code,name,unit,comparison_label,description
+AREA,area,km²,Larger / Smaller,
+COAST,coastline length,km,Longer / Shorter,
+DENS,population density,people/km²,More / Fewer,
+ELEV,elevation,m,Higher / Lower,
+NEIGH,neighbouring countries,countries,More / Fewer,
+POP,population,people,More / Fewer,Total population
+TEMP,average annual surface temperature 2025,°C,Higher / Lower,

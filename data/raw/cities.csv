@@ -1,0 +1,194 @@
+﻿external_id,name,entity_type,country_code
+C001,Kabul,city,AFG
+C002,Tirana,city,ALB
+C003,Algiers,city,DZA
+C004,Andorra la Vella,city,AND
+C005,Luanda,city,AGO
+C006,St. John,city,ATG
+C007,Buenos Aires,city,ARG
+C008,Yerevan,city,ARM
+C009,Canberra,city,AUS
+C010,Vienna,city,AUT
+C011,Baku,city,AZE
+C012,Nassau,city,BHS
+C013,Manama,city,BHR
+C014,Dhaka,city,BGD
+C015,Bridgetown,city,BRB
+C016,Minsk,city,BLR
+C017,Brussels,city,BEL
+C018,Belmopan,city,BLZ
+C019,Porto-Novo,city,BEN
+C020,Thimphu,city,BTN
+C021,Sucre,city,BOL
+C022,Sarajevo,city,BIH
+C023,Gaborone,city,BWA
+C024,Brasilia,city,BRA
+C025,Bandar Seri Begawan,city,BRN
+C026,Sofia,city,BGR
+C027,Ouagadougou,city,BFA
+C028,Bujumbura,city,BDI
+C029,Praia,city,CPV
+C030,Phnom Penh,city,KHM
+C031,Yaounde,city,CMR
+C032,Ottawa,city,CAN
+C033,Bangui,city,CAF
+C034,Santiago,city,CHL
+C035,Beijing,city,CHN
+C036,Bogota,city,COL
+C037,Moroni,city,COM
+C038,Brazzaville,city,COG
+C039,San Jose,city,CRI
+C040,Yamoussoukro,city,CIV
+C041,Zagreb,city,HRV
+C042,Havana,city,CUB
+C043,Nicosia,city,CYP
+C044,Prague,city,CZE
+C045,Kinshasa,city,COD
+C046,Copenhagen,city,DNK
+C047,Djibouti,city,DJI
+C048,Roseau,city,DMA
+C049,Santo Domingo,city,DOM
+C050,Quito,city,ECU
+C051,Cairo,city,EGY
+C052,San Salvador,city,SLV
+C053,Ciudad de la Paz,city,GNQ
+C054,Asmara,city,ERI
+C055,Tallinn,city,EST
+C056,Mbabane,city,SWZ
+C057,Addis Ababa,city,ETH
+C058,Suva,city,FJI
+C059,Helsinki,city,FIN
+C060,Paris,city,FRA
+C061,Libreville,city,GAB
+C062,Banjul,city,GMB
+C063,Tbilisi,city,GEO
+C064,Berlin,city,DEU
+C065,Accra,city,GHA
+C066,Athens,city,GRC
+C067,Guatemala City,city,GTM
+C068,Conakry,city,GIN
+C069,Bissau,city,GNB
+C070,Georgetown,city,GUY
+C071,Port-au-Prince,city,HTI
+C072,Vatican City,city,VAT
+C073,Tegucigalpa,city,HND
+C074,Budapest,city,HUN
+C075,Reykjavik,city,ISL
+C076,Delhi,city,IND
+C077,Jakarta,city,IDN
+C078,Tehran,city,IRN
+C079,Baghdad,city,IRQ
+C080,Dublin,city,IRL
+C081,Jerusalem,city,ISR
+C082,Rome,city,ITA
+C083,Kingston,city,JAM
+C084,Tokyo,city,JPN
+C085,Amman,city,JOR
+C086,Astana,city,KAZ
+C087,Nairobi,city,KEN
+C088,South Tarawa,city,KIR
+C089,Kuwait City,city,KWT
+C090,Bishkek,city,KGZ
+C091,Vientiane,city,LAO
+C092,Riga,city,LVA
+C093,Beirut,city,LBN
+C094,Maseru,city,LSO
+C095,Monrovia,city,LBR
+C096,Tripoli,city,LBY
+C097,Vaduz,city,LIE
+C098,Vilnius,city,LTU
+C099,Luxembourg,city,LUX
+C100,Antananarivo,city,MDG
+C101,Lilongwe,city,MWI
+C102,Kuala Lumpur,city,MYS
+C103,Male,city,MDV
+C104,Bamako,city,MLI
+C105,Valletta,city,MLT
+C106,Majuro,city,MHL
+C107,Nouakchott,city,MRT
+C108,Port Louis,city,MUS
+C109,Mexico City,city,MEX
+C110,Palikir,city,FSM
+C111,Chisinau,city,MDA
+C112,Monaco,city,MCO
+C113,Ulaanbaatar,city,MNG
+C114,Podgorica,city,MNE
+C115,Rabat,city,MAR
+C116,Maputo,city,MOZ
+C117,Naypyitaw,city,MMR
+C118,Windhoek,city,NAM
+C119,Yaren,city,NRU
+C120,Kathmandu,city,NPL
+C121,Amsterdam,city,NLD
+C122,Wellington,city,NZL
+C123,Managua,city,NIC
+C124,Niamey,city,NER
+C125,Abuja,city,NGA
+C126,Pyongyang,city,PRK
+C127,Skopje,city,MKD
+C128,Oslo,city,NOR
+C129,Muscat,city,OMN
+C130,Islamabad,city,PAK
+C131,Ngerulmud,city,PLW
+C132,Ramallah,city,PSE
+C133,Panama City,city,PAN
+C134,Port Moresby,city,PNG
+C135,Asuncion,city,PRY
+C136,Lima,city,PER
+C137,Manila,city,PHL
+C138,Warsaw,city,POL
+C139,Lisbon,city,PRT
+C140,Doha,city,QAT
+C141,Bucharest,city,ROU
+C142,Moscow,city,RUS
+C143,Kigali,city,RWA
+C144,Basseterre,city,KNA
+C145,Castries,city,LCA
+C146,Kingstown,city,VCT
+C147,Apia,city,WSM
+C148,San Marino,city,SMR
+C149,Sao Tome,city,STP
+C150,Riyadh,city,SAU
+C151,Dakar,city,SEN
+C152,Belgrade,city,SRB
+C153,Victoria,city,SYC
+C154,Freetown,city,SLE
+C155,Singapore,city,SGP
+C156,Bratislava,city,SVK
+C157,Ljubljana,city,SVN
+C158,Honiara,city,SLB
+C159,Mogadishu,city,SOM
+C160,Pretoria,city,ZAF
+C161,Seoul,city,KOR
+C162,Juba,city,SSD
+C163,Madrid,city,ESP
+C164,Colombo,city,LKA
+C165,Khartoum,city,SDN
+C166,Paramaribo,city,SUR
+C167,Stockholm,city,SWE
+C168,Bern,city,CHE
+C169,Damascus,city,SYR
+C170,Dushanbe,city,TJK
+C171,Dodoma,city,TZA
+C172,Bangkok,city,THA
+C173,Dili,city,TLS
+C174,Lome,city,TGO
+C175,Nukualofa,city,TON
+C176,Port of Spain,city,TTO
+C177,Tunis,city,TUN
+C178,Ankara,city,TUR
+C179,Ashgabat,city,TKM
+C180,Funafuti,city,TUV
+C181,Kampala,city,UGA
+C182,Kiev,city,UKR
+C183,Abu Dhabi,city,ARE
+C184,London,city,GBR
+C185,Washington,city,USA
+C186,Montevideo,city,URY
+C187,Tashkent,city,UZB
+C188,Port Vila,city,VUT
+C189,Caracas,city,VEN
+C190,Hanoi,city,VNM
+C191,Sanaa,city,YEM
+C192,Lusaka,city,ZMB
+C193,Harare,city,ZWE
