@@ -14,6 +14,7 @@ PROCESSED_DIR = PROJECT_DIR / "data" / "processed"
 ENTITIES_FILE = PROCESSED_DIR / "entities.csv"
 STATISTICS_FILE = PROCESSED_DIR / "statistics.csv"
 ENTITY_STATISTICS_FILE = PROCESSED_DIR / "entity_statistics.csv"
+ENTITY_LOCATIONS_FILE = PROCESSED_DIR / "entity_locations.csv"
 
 # All entity types supported by GeoCompare.
 VALID_ENTITY_TYPES = {
@@ -193,6 +194,144 @@ def validate_entities(entities):
         )
 
     print("Entity validation complete.")
+
+
+# --------------------------------------------------
+# VALIDATE ENTITY LOCATIONS
+# --------------------------------------------------
+
+def validate_entity_locations(entity_locations, entities):
+
+    report_section("GEOGRAPHICAL RELATIONSHIP VALIDATION")
+
+    required_columns = [
+        "external_id",
+        "location_external_id",
+        "relationship_type"
+    ]
+
+    if not check_columns(
+        entity_locations,
+        required_columns,
+        "entity_locations.csv"
+    ):
+        return
+
+    print(f"Total geographical relationships: {len(entity_locations)}")
+
+    # Check required values.
+    for column in required_columns:
+
+        missing = entity_locations[column].eq("")
+
+        if missing.any():
+            add_error(
+                f"Geographical relationships have "
+                f"{missing.sum()} missing values in '{column}'."
+            )
+
+    # Check supported relationship types.
+    valid_relationship_types = {
+        "located_in",
+        "administered_by",
+        "sovereignty"
+    }
+
+    invalid_types = (
+        set(entity_locations["relationship_type"])
+        - {""}
+        - valid_relationship_types
+    )
+
+    if invalid_types:
+        add_error(
+            "Unsupported geographical relationship types: "
+            f"{sorted(invalid_types)}"
+        )
+
+    # Check that both referenced entities exist.
+    known_entity_ids = set(entities["external_id"])
+
+    referenced_entity_ids = (
+        set(entity_locations["external_id"])
+        | set(entity_locations["location_external_id"])
+    )
+
+    unknown_entities = (
+        referenced_entity_ids - {""} - known_entity_ids
+    )
+
+    if unknown_entities:
+        add_error(
+            "Geographical relationships reference unknown "
+            f"entity IDs: {sorted(unknown_entities)}"
+        )
+
+    # Check that located_in relationships point to
+    # country or territory entities.
+    entity_types = dict(
+        zip(entities["external_id"], entities["entity_type"])
+    )
+
+    located_in = entity_locations[
+        entity_locations["relationship_type"] == "located_in"
+    ]
+
+    invalid_locations = []
+
+    for _, row in located_in.iterrows():
+
+        location_id = row["location_external_id"]
+
+        if location_id == "":
+            continue
+
+        if location_id in entity_types:
+            if entity_types[location_id] != "country_territory":
+                invalid_locations.append(
+                    f"{row['external_id']} -> {location_id}"
+                )
+
+    if invalid_locations:
+        add_error(
+            "The following 'located_in' relationships do not "
+            "point to country/territory entities: "
+            f"{invalid_locations[:20]}"
+        )
+
+    # Check that entities are not located in themselves.
+    self_references = entity_locations[
+        entity_locations["external_id"]
+        == entity_locations["location_external_id"]
+    ]
+
+    if not self_references.empty:
+        add_error(
+            f"{len(self_references)} geographical relationships "
+            "reference the same entity as both sides."
+        )
+
+    # Check duplicate relationships.
+    duplicate_columns = [
+        "external_id",
+        "location_external_id",
+        "relationship_type"
+    ]
+
+    duplicates = entity_locations[
+        entity_locations.duplicated(
+            subset=duplicate_columns,
+            keep=False
+        )
+    ]
+
+    if not duplicates.empty:
+        add_error(
+            f"{len(duplicates)} rows contain duplicate "
+            "geographical relationships."
+        )
+
+    print("Geographical relationship validation complete.")
 
 
 # --------------------------------------------------
@@ -470,10 +609,16 @@ def main():
     entities = load_csv(ENTITIES_FILE)
     statistics = load_csv(STATISTICS_FILE)
     entity_statistics = load_csv(ENTITY_STATISTICS_FILE)
+    entity_locations = load_csv(ENTITY_LOCATIONS_FILE)
 
     if any(
         df is None
-        for df in [entities, statistics, entity_statistics]
+        for df in [
+            entities,
+            statistics,
+            entity_statistics,
+            entity_locations
+        ]
     ):
         report_results()
         return
@@ -486,6 +631,11 @@ def main():
         entity_statistics,
         entities,
         statistics
+    )
+
+    validate_entity_locations(
+        entity_locations,
+        entities
     )
 
     report_results()

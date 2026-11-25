@@ -142,6 +142,170 @@ if entities["external_id"].duplicated().any():
 
 
 # --------------------------------------------------
+# 3A. Generate geographical relationships
+# --------------------------------------------------
+
+location_frames = []
+
+# Identify all valid country/territory external IDs.
+country_entities = entities[
+    entities["entity_type"] == "country_territory"
+]
+
+country_ids = set(country_entities["external_id"])
+
+# Process every raw entity file containing country_code.
+for file_path in entity_files:
+
+    df = pd.read_csv(
+        file_path,
+        dtype=str,
+        encoding="utf-8-sig"
+    )
+
+    df.columns = df.columns.str.strip()
+
+    # Skip files without geographical country associations.
+    if "country_code" not in df.columns:
+        continue
+
+    print(f"Processing geographical relationships: {file_path.name}")
+
+    check_columns(
+        df,
+        ["external_id", "country_code"],
+        file_path.name
+    )
+
+    # Split comma-separated country codes into individual rows.
+    relationships = df[
+        ["external_id", "country_code"]
+    ].copy()
+
+    relationships["country_code"] = (
+        relationships["country_code"]
+        .fillna("")
+        .str.strip()
+    )
+
+    relationships["location_external_id"] = (
+        relationships["country_code"].str.split(",")
+    )
+
+    relationships = relationships.explode(
+        "location_external_id"
+    )
+
+    relationships["location_external_id"] = (
+        relationships["location_external_id"].str.strip()
+    )
+
+    # Remove blank country codes.
+    relationships = relationships[
+        relationships["location_external_id"] != ""
+    ].copy()
+
+    # Validate that every country code exists.
+    unknown_codes = (
+        set(relationships["location_external_id"])
+        - country_ids
+    )
+
+    if unknown_codes:
+        raise ValueError(
+            f"{file_path.name} contains country codes "
+            f"that do not match a country/territory entity: "
+            f"{sorted(unknown_codes)}"
+        )
+
+    # Standardise relationship records.
+    standardised = pd.DataFrame({
+        "external_id": relationships["external_id"].str.strip(),
+        "location_external_id": relationships["location_external_id"],
+        "relationship_type": "located_in",
+        "source": "",
+        "source_url": ""
+    })
+
+    location_frames.append(standardised)
+
+
+# Combine relationships from all applicable entity files.
+if location_frames:
+
+    processed_entity_locations = pd.concat(
+        location_frames,
+        ignore_index=True
+    )
+
+else:
+
+    processed_entity_locations = pd.DataFrame(
+        columns=[
+            "external_id",
+            "location_external_id",
+            "relationship_type",
+            "source",
+            "source_url"
+        ]
+    )
+
+
+# Check for duplicate relationships.
+duplicate_relationships = [
+    "external_id",
+    "location_external_id",
+    "relationship_type"
+]
+
+if processed_entity_locations.duplicated(
+    subset=duplicate_relationships
+).any():
+
+    duplicates = processed_entity_locations[
+        processed_entity_locations.duplicated(
+            subset=duplicate_relationships,
+            keep=False
+        )
+    ]
+
+    raise ValueError(
+        "Duplicate geographical relationships found:\n"
+        + duplicates.to_string(index=False)
+    )
+
+
+# Check that all associated entities exist.
+known_entity_ids = set(entities["external_id"])
+
+referenced_entities = (
+    set(processed_entity_locations["external_id"])
+    | set(processed_entity_locations["location_external_id"])
+)
+
+unknown_entities = referenced_entities - known_entity_ids
+
+if unknown_entities:
+    raise ValueError(
+        f"Geographical relationships reference unknown entities: "
+        f"{sorted(unknown_entities)}"
+    )
+
+
+# --------------------------------------------------
+# 3B. Save processed entity_locations.csv
+# --------------------------------------------------
+
+processed_entity_locations.to_csv(
+    PROCESSED_DIR / "entity_locations.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+
+
+
+
+# --------------------------------------------------
 # 4. Read raw statistic files
 # --------------------------------------------------
 
@@ -382,5 +546,6 @@ print("\nData processing completed successfully!")
 print(f"Entities: {len(processed_entities)}")
 print(f"Statistics: {len(statistics)}")
 print(f"Measurements: {len(processed_entity_statistics)}")
+print(f"Geographical relationships: {len(processed_entity_locations)}")
 
 print(f"\nProcessed files saved to: {PROCESSED_DIR}")
